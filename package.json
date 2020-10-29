@@ -4,7 +4,8 @@
   "description": "Notify if a new garage pops up",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node -e 'require(\"./index\").runGarageMonitor()'"
   },
   "repository": {
     "type": "git",
